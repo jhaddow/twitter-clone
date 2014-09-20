@@ -97,7 +97,7 @@ body {
 	}
 		#profile-summary .avatar {
 			position: absolute;
-			top: 0;.twe
+			top: 0;
 			left: 0;
 		}
 		#profile-summary .content {
@@ -105,7 +105,7 @@ body {
 			border-bottom: 1px solid #e8e8e8;
 			min-height: 40px;
 		}
-		#profile-summary .content p {
+		#profile-summary .content .fullname{
 			margin-left: 42px;
 			font-weight: bold;
 			font-size: 14px;
@@ -155,7 +155,7 @@ body {
 	.tweet .fullname {
 		font-size: 14px;
 	}
-	.tweet .username {
+	.username {
 		font-size: 12px;
 		color: #999;
 	}
@@ -166,7 +166,12 @@ body {
 		padding-left: 42px;
 	}
 
+	.noShow {
+		display: none;
+	}
+
 	.tweet-actions {
+
 		text-align: right;
 	}
 		.tweet-actions ul {
@@ -209,6 +214,7 @@ body {
 	}
 
 	.stats {
+		
 		margin: 12px 0 12px 42px;
 		border-top: 1px solid #e8e8e8;
 	}
@@ -249,6 +255,7 @@ body {
 		}
 
 		.reply {
+			
 			position: relative;
 			clear: both;
 			padding-left: 43px;
