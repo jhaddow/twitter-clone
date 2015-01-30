@@ -45,10 +45,10 @@ $(document).ready(function(){
 				var userName = $('#profile-summary').find('.username').text();
 				var avatar = $('#profile-summary').find('img').attr('src');
 				var tweetText = $('#tweet-content > .tweet-compose').val();
-				$(element).find('.fullname').text(fullName);
-				$(element).find('.username').text(userName);
-				$(element).find('.tweet-text').text(tweetText);
-				$(element).find('.avatar').attr('src', avatar);			
+				element.find('.fullname').text(fullName);
+				element.find('.username').text(userName);
+				element.find('.tweet-text').text(tweetText);
+				element.find('.avatar').attr('src', avatar);			
 				
 			};		
 			var newTweet = $('.tweet').first().clone(true); //create a clone of the latest tweet.
